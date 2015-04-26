@@ -1,0 +1,11 @@
+Code Book
+=========
+
+subject_id
+  The numeric identifier of the test subject who provided the observations. Ranges from 1 to 30.
+
+activity
+  The descriptive name of the activity performed by the subject during the observations. One of:
+  ("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS")
+
+The remaining 66 variables are taken directly from the source data, and descriptions can be found in: data/features_info.txt. They are presented here as the average of all measurements of that variable, for the given subject and activity. 

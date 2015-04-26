@@ -1,3 +1,6 @@
+#Requires dplyr
+library(dplyr)
+
 # Load the main data files
 train_vals <- read.table("data/train/X_train.txt")
 test_vals <- read.table("data/test/X_test.txt")
